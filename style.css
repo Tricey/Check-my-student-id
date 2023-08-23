@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  background-color: rgb(81, 202, 51);
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  display: block;
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width: 100%;
+  background-color: rgb(81, 202, 51);
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover {
+  background-color: rgb(81, 202, 51);
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+.head input {
+  font: size 10px;
+  padding: 3px;
+  text-align: center;
+  margin-left: 20px;
+}
+.head button {
+  background-color: rgb(76, 76, 221);
+  border: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  margin-left: -10px;
+}
+.head i {
+  color: #fff;
+}
+.head button:hover {
+  cursor: pointer;
+  background-color: rgb(58, 58, 143);
+}
+
+#student_search {
+  font-family: sans-serif;
+}
+#student_search h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.search_date {
+  text-align: center;
+  background-color: rgba(243, 164, 135, 0.986);
+  border: 2px solid orange;
+  height: 206px;
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.search_date input {
+  width: 800px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.search_date button {
+  height: 50px;
+  width: 130px;
+  margin-top: 15px;
+  background-color: rgb(96, 96, 211);
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.search_date button:hover {
+  cursor: pointer;
+  background-color: rgb(58, 58, 143);
+}
+#booking {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+#booking h3 {
+  color: rgb(26, 26, 109);
+  font-size: 25px;
+}
+#booking span {
+  color: blue;
+}
+.bar {
+  background-color: orange;
+  max-width: 750px;
+  padding: 4px;
+}
+.bar input {
+  width: 200px;
+  height: 20px;
+}
+.bar button {
+  background-color: rgb(96, 96, 211);
+  border: 2px solid #fff;
+  width: 60px;
+  height: 25px;
+  color: #fff;
+  font-size: 15px;
+}
+.bar button:hover {
+  background-color: rgb(58, 58, 143);
+  cursor: pointer;
+}
+.bar button:last-child {
+  background-color: transparent;
+  width: 75px;
+  margin-left: 5em;
+  opacity: 0.5;
+}
+.bar button:last-child:hover {
+  color: black;
+  opacity: 1;
+  border: 3px solid rgb(196, 136, 24);
+}
+.booking_list {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.booking {
+  margin-right: 7px;
+}
+.booking a{
+  color: darkgray;
+  text-decoration: none;
+  margin-left: 10rem;
+}
+.booking_1 {
+  background-image: url("./images/wallpaper\ 1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15em;
+   width: 15em;
+  color: #fff;
+}
+.booking_2 {
+  background-image: url("./images/wallpaper\ 2.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15em;
+   width: 15em;
+  color: #fff;
+}
+.booking_3 {
+  background-image: url("./images/wallpaper\ 3.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15em;
+  width: 15em;
+  color: #fff;
+}
+.country{
+  background-color: rgb(92, 83, 83);
+  width: 7em;
+}
+.country h3{
+  font-weight: bold;
+}
+.list{
+background-color: rgb(225, 225, 226);
+}
+.list h4{
+color: rgb(93, 93, 138);
+font-weight: bold;
+}
+.list i{
+  color:black;
+}
+.list:hover{
+  cursor: pointer;
+}
+.list button{
+  width: 10em;
+  height: 2em;
+  font-size: 20px;
+  color: #fff;
+  border: #fff 2px solid;
+  background-color: rgb(96, 96, 211);
+}
+.list button:hover{
+  background-color: rgb(58, 58, 143);
+  cursor: pointer;
+}
+.list button i{
+  color: #fff;
+}
+.list p{
+  margin:0 ;
+}
+#list {
+  display: flex;
+  margin-bottom: 9px;
+} 
+#list p{
+  margin-left: 5px;
+}
+#list p a{
+  text-decoration: none;
+ margin-left: 10px;
+ color: darkgray;
+ text-align: right;
+}
+#list:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+.codes h2 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.codes_flex {
+  margin-top: 10px;
+}
+.codes_flex p {
+  word-spacing: 8px;
+  margin-left: 200px;
+  font-size: 17px;
+}
+.codes_flex p span.first {
+  font-size: 30px;
+}
+.codes_flex p span {
+  background-color: rgb(225, 225, 238);
+}
+.codes_flex p span a {
+  text-decoration: none;
+  color: rgb(103, 103, 214);
+  margin-bottom: 30px;
+}
+.note {
+  background-color: rgb(227, 227, 233);
+  max-width: 1000px;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0;
+  font-size: 18px;
+  border: 1px solid rgb(180, 180, 228);
+}
+.note p {
+  margin-top: 20px;
+}
+.bottom_note {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(56, 53, 53);
+  margin-top: 20px;
+  padding: 25px;
+}
+.bottom_note div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.bottom_note a {
+  margin-top: 100px;
+}
+.foot_note {
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+}
+.foot_note p {
+  margin-top: 20px;
+}
+.foot_note a {
+  text-decoration: none;
+  color: rgb(86, 187, 218);
+}
